@@ -1,0 +1,50 @@
+body{
+    background-image: url(London.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    height: 1000px;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.member{
+    text-align: center;
+}
+.left{
+    position: relative;
+    top: -12px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 60px;
+}
+.right{
+    position: relative;
+    left: 30px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 60px;
+}
+input{
+    border: 2px solid white;
+    padding: 7px 3px;
+    width: 280px;
+}
+button{
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    width: 289px;
+    padding: 8px;
+}
+h2{
+    color: white;
+    border-bottom: 1px solid white ;
+    width: 390px;
+}
